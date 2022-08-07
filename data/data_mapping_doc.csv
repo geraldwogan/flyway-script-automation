@@ -1,0 +1,4 @@
+'TABLE_NAME','COLUMN_NAME','DATATYPE','INDEX_TYPE','NULL_OPTION','COLUMN_COMMENT'
+DW_MBRSHP, MBRSHP_ID, STIRNG(1000), PRIMARY KEY, Not Null, The key for the table. A member's membership ID.
+DW_MBRSHP, MBRSHP_TYPE, STIRNG(1000), , Null, The type of membership for a member: A, B, C.
+DW_MBRSHP, INS_DTTM, TIMESTAMP, , Null, Insert DateTime of record.
